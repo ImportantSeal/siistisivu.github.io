@@ -1,0 +1,56 @@
+<body>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Koti</a></li>
+        <li><a href="sivu3.html">Ilmankosteus</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Tuulennopeus, Tampere</h1>
+  <div class="chart-container">
+    <canvas id="wind-speed-chart"></canvas>
+
+  </div>
+  <h1>20 viimeisintä lukemaa</h1>
+  <div class="table-wrapper">
+    <table id="weather-table">
+      <thead>
+        <tr>
+          <th>Tilasto, Päivämäärä ja Aika</th>
+          <th>Tuulennopeus (m/s)</th>
+        </tr>
+        <tr>
+          <td>Keskiarvo</td>
+          <td id="mean"></td>
+        </tr>
+        <tr>
+          <td>Moodi</td>
+          <td id="mode"></td>
+        </tr>
+        <tr>
+          <td>Mediaani</td>
+          <td id="median"></td>
+        </tr>
+        <tr>
+          <td>Keskihajonta</td>
+          <td id="standard-deviation"></td>
+        </tr>
+        <tr>
+          <td>Vaihteluväli</td>
+          <td id="range"></td>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scriptsivu2.js"></script>
+  <footer>
+    <p>&copy; 2023 Siisti sivu. No rights reserved :STARE:</p>
+  </footer>
+</body>

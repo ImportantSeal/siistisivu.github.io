@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(39, 36, 36);
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 4%;
+}
+
+li {
+  padding: 5px 6px;
+  border-bottom: 2px solid #dbc500;
+}
+#wind-speed-chart {
+  width: 70% ;
+  height: 70% ;
+  margin: 0 auto;
+  display: block;
+}
+#humidity-chart {
+  width: 70% ;
+  height: 70% ;
+  margin: 0 auto;
+  display: block;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 0px;
+}
+nav ul {
+	list-style-type: none;
+
+	padding: 20;
+  
+  
+}
+nav li {
+	margin: 1 10%;
+  text-align: center;
+  
+}
+nav a {
+	color: #fff;
+	text-decoration:dashed;
+	font-size: 20px;
+	font-weight: bold;
+  
+}
+#weather-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#weather-table th,
+#weather-table td {
+  border: 2px solid rgb(155, 143, 37);
+  padding: 0.5em;
+  color: #c9c9c9;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(48, 48, 48);
+}
+.table-wrapper {
+  margin: auto;
+  width: 50%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+table {
+
+  border-collapse: collapse;
+  width: 70%;
+}
+
+
+tr:hover {
+  background-color: #ddd;
+}
+
